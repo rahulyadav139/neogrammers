@@ -78,7 +78,7 @@ const Filter = props => {
               key={el.name}
               href={`https://twitter.com/${el.twitter}`}
               target="_blank"
-               rel="no-referrer"
+               no-referrer
             >
               <div className={styles.card}>
                 <div className={styles.image}>
