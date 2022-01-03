@@ -31,7 +31,7 @@ const Form = props => {
         <input ref={lastNameRef} type="text" />
       </div>
       <div className={styles.row}>
-        <label>Twitter</label>
+        <label>Twitter Username</label>
         <input ref={twitterRef} type="text" />
       </div>
       <div className={styles.buttons}>
